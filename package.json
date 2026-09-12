@@ -36,10 +36,10 @@
     "n8nNodesApiVersion": 1,
     "strict": true,
     "credentials": [
-      "dist/credentials/lspiderApi.credentials.js"
+      "dist/credentials/LSpiderApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/lspider/lspider.node.js"
+      "dist/nodes/LSpider/LSpider.node.js"
     ]
   },
   "devDependencies": {
