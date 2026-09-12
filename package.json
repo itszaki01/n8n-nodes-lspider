@@ -1,0 +1,56 @@
+{
+  "name": "n8n-nodes-lspider",
+  "version": "0.2.10",
+  "description": "This Node made to make life easier with lspider.shop",
+  "license": "MIT",
+  "homepage": "",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n-nodes-lspider",
+    "lspider.shop",
+    "lspider",
+    "lspider shop",
+    "lspider n8n"
+  ],
+  "author": {
+    "name": "Zakaria Touil",
+    "email": "itszacktouil@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itszaki01/n8n-nodes-lspider.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/lspiderApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/lspider/lspider.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "@types/node": "^25.0.10",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
