@@ -12,17 +12,17 @@ import { storeCouponsDescription } from './resources/storeCoupons';
 import { storeStockDescription } from './resources/storeStock';
 import { teamUserDescription } from './resources/teamUser';
 
-export class LSpider implements INodeType {
+export class Lspider implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'LSpider',
+		displayName: 'Lspider',
 		name: 'lspider',
 		icon: { light: 'file:lspider-logo.svg', dark: 'file:lspider-logo.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Interact with the LSpider API',
+		description: 'Interact with the Lspider API',
 		defaults: {
-			name: 'LSpider',
+			name: 'Lspider',
 		},
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],

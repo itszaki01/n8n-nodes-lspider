@@ -39,7 +39,7 @@
       "dist/credentials/LspiderApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/LSpider/Lspider.node.js"
+      "dist/nodes/Lspider/Lspider.node.js"
     ]
   },
   "devDependencies": {

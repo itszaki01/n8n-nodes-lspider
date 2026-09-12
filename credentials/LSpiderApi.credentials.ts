@@ -29,7 +29,7 @@ interface TokenData {
 
 export class LspiderApi implements ICredentialType {
 	name = 'lspiderApi';
-	displayName = 'LSpider API';
+	displayName = 'Lspider API';
 
 	icon: Icon = {
 		light: 'file:lspider-logo.svg',
