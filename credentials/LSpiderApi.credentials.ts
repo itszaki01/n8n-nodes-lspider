@@ -27,7 +27,7 @@ interface TokenData {
 	expiresAt: number; // timestamp in ms
 }
 
-export class LSpiderApi implements ICredentialType {
+export class LspiderApi implements ICredentialType {
 	name = 'lspiderApi';
 	displayName = 'LSpider API';
 
